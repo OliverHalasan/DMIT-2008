@@ -1,38 +1,6 @@
-#  Next Best Dev
+#  DMIT-2008
 
+##  John Oliver Halasan
 
- ## _document.js file
- ```jsx
-import Document, { Head, Html, Main, NextScript } from 'next/document';
-
-class MyDocument extends Document {
-  static async getInitialProps(context) {
-    const initialProps = await Document.getInitialProps(context);
-    return { ...initialProps };
-  }
-
-  render() {
-    return (
-      <Html lang={this.props.locale}>
-        <Head>
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
-}
-
-export default MyDocument;
-
- ```
-
- ## next.config.js
- ```
-i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
- ```
+### On this project I will demonstrate what I learn from my DMIT-2008 class
+### all of my codes will be here for this class and will be deloplyed in Vercel
