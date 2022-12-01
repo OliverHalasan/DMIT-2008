@@ -10,7 +10,6 @@ export default function Home() {
                 <meta name="description" content="find the next best react developer for your business. Next Best Dev gives you access to North Americas largest pool of React Developers." />
                 <title>Oliver's Project</title>
             </Head>
-            <NavBar/>
            
             <LandingPageHeader />
             <main>

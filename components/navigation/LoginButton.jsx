@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-function LoginButton({className, ...props}) {
+function LoginButton({props}) {
     return ( 
-        <Link href="signin" className={`hidden ${className} w-[130px]`}>
+        <Link href="login">
             login
         </Link>
      );

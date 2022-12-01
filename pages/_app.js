@@ -3,19 +3,13 @@ import {DefaultLayout} from './../components/layouts'
 import '../styles/global.css'
 
 
+
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page)
+
+  return <DefaultLayout>{getLayout(<Component {...pageProps} />)}</DefaultLayout>
   
-  return(
-    <>
-    <head>
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-    </head>
-
-    <Component {...pageProps} />
-
-
-    </>
-  ) 
 }
 
 export default MyApp
+

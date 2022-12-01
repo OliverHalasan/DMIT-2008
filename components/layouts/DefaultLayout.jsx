@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {NavBar} from '../navigation'
 export default function DefaultLayout({
   children,
-  pageTitle = 'This is the default title',
+  pageTitle = ['This is the default title'],
 }) {
   return (
     <>
