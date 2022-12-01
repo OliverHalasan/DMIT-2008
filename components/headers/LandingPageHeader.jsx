@@ -12,7 +12,8 @@ function LandingPageHeader() {
                 </figcaption>
                 <Image className='max-w-xl '
                 src={bannerImage}
-                alt='https://www.freepik.com/free-vector/isometric-public-transport-collection_26798135.htm#page=2&query=car&position=21&from_view=search&track=sph'
+                alt='car image'
+                priority={true}
                 />
             </figure>
         </header>

@@ -7,16 +7,16 @@ function NavBarLinks() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/frontend">Honda</Link>
+          <Link href="/honda">Honda</Link>
         </li>
         <li>
-          <Link href="/uiux">Toyota</Link> 
+          <Link href="/toyota">Toyota</Link> 
         </li>
         <li>
-          <Link href="/fullstack">Acura</Link> 
+          <Link href="/acura">Acura</Link> 
         </li>
         <li>
-          <Link href="/backend">Subaru</Link> 
+          <Link href="/subaru">Subaru</Link> 
         </li>
       </ul>
      );
