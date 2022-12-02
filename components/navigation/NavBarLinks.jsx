@@ -7,16 +7,16 @@ function NavBarLinks() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/honda">Honda</Link>
+          <Link href="/usa">USA</Link>
         </li>
         <li>
-          <Link href="/toyota">Toyota</Link> 
+          <Link href="/china">China</Link> 
         </li>
         <li>
-          <Link href="/acura">Acura</Link> 
+          <Link href="/japan">Japan</Link> 
         </li>
         <li>
-          <Link href="/subaru">Subaru</Link> 
+          <Link href="/germany">Germany</Link> 
         </li>
       </ul>
      );

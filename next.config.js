@@ -5,6 +5,16 @@ const nextConfig = {
     locales: ['en'],
     defaultLocale: 'en',
   },
-}
 
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'api.lorem.space',
+        pathname: '/image/*',
+      },
+    ],
+  },
+ 
+}
 module.exports = nextConfig
