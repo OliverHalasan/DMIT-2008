@@ -17,4 +17,7 @@
 {"id":17,"model":"F350","manufacturer":"Ford","year":1996,"carvin":"KMHCT4AE6CU662776","image":"https://api.lorem.space/image/car?w=150&h=150&hash=9D9539E7","country":"Germany"},
 {"id":18,"model":"RX","manufacturer":"Lexus","year":2013,"carvin":"1J4AA2D19BL202878","image":"https://api.lorem.space/image/car?w=150&h=150&hash=BDC01094","country":"Germany"},
 {"id":19,"model":"Suburban 2500","manufacturer":"Chevrolet","year":1994,"carvin":"1GYFK26259R260275","image":"https://api.lorem.space/image/car?w=150&h=150&hash=B0E33EF4","country":"Germany"},
+{"id":18,"model":"RX","manufacturer":"Lexus","year":2013,"carvin":"1J4AA2D19BL202878","image":"https://api.lorem.space/image/car?w=150&h=150&hash=BDC01094","country":"United States"},
+{"id":18,"model":"RX","manufacturer":"Lexus","year":2013,"carvin":"1J4AA2D19BL202878","image":"https://api.lorem.space/image/car?w=150&h=150&hash=BDC01094","country":"Japan"},
+
 {"id":20,"model":"Tempo","manufacturer":"Ford","year":1984,"carvin":"WBA1J7C59FV685142","image":"https://api.lorem.space/image/car?w=150&h=150&hash=225E6693","country":"Germany"}]
