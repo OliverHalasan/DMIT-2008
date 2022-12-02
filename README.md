@@ -12,14 +12,12 @@ $ deployment of the site to the vercel
 $ showing an custom index page
 ```
 
-## Assignment 2
+## Assignment 2 https://dmit-2008.vercel.app/
 
 ```
 $ I'm creating a car categories website that you can see different kind of car from different country
 * USA
 * Japan
 * Germany
-* China
-
-$ heres the link for my vercel: https://dmit-2008.vercel.app/
+* China 
 ```
