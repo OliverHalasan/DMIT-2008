@@ -1,7 +1,7 @@
 function ContentPageHeader({title, tagline, type,children}) {
     return (
       <>
-        <header className="text-center mt-20">
+        <header className="text-center mt-20 ">
           <h1 className="text-lg font-semibold text-indigo-600">
             {type}
           </h1>

@@ -4,10 +4,9 @@ import ContentPageLayout from '../components/layouts/ContentPageLayout';
 import {CarsCard} from '../components/Cars'
 
 function USAPage({ui}) {
-    console.log(ui)
     return (
         <>
-            <div className='flex items-center space-x-4 '>
+            
             { ui.map(dev=> <CarsCard 
                 key={dev.id} 
                 image={dev.image}
@@ -18,7 +17,6 @@ function USAPage({ui}) {
                 country={dev.country}
                 
                 />)}
-            </div>
                 
         </>
     );
