@@ -21,3 +21,8 @@ $ I'm creating a car categories website that you can see different kind of car f
 * Germany
 * China 
 ```
+
+## Assignment 2
+$ I'm creating a full description of a car that we can see a single car of a specific data
+```
+![image](https://user-images.githubusercontent.com/77119741/207540097-121daa1d-8a9f-40d3-b2ba-ed11576609cb.png)
