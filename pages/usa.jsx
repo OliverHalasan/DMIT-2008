@@ -1,5 +1,4 @@
-import path from 'path'
-import {promises as  fs} from 'fs';
+import { getCars } from '../libs/getCars';
 import ContentPageLayout from '../components/layouts/ContentPageLayout';
 import {CarsCard} from '../components/Cars'
 
@@ -15,6 +14,7 @@ function USAPage({ui}) {
                 carvin={dev.carvin}
                 year={dev.year}
                 country={dev.country}
+                id={dev.id}
                 
                 />)}
                 
@@ -33,8 +33,7 @@ USAPage.getLayout = function getLayout(page) {
 }
 
 export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), './mock/car.json')
-    const devs = JSON.parse(await fs.readFile(filePath, 'utf-8'))
+   const devs = await getCars()
     const uiDevs = devs.filter(dev=> dev.country==='United States')
 
     return{

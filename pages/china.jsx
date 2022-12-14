@@ -15,6 +15,8 @@ function ChinaPage({ui}) {
                 carvin={dev.carvin}
                 year={dev.year}
                 country={dev.country}
+                id={dev.id}
+
                 
                 />)}
         </>

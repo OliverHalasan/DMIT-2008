@@ -1,8 +1,9 @@
 import Image from 'next/image'
-
-function CarsCard({ manufacturer, model, year, carvin, country, image }) {
+import Link from 'next/link'
+function CarsCard({ manufacturer, model, year, carvin, country, image, id}) {
     return (
         <aside>
+            <Link href={`/information/${id}`}>
             <div class="flex justify-center flex-row ">
                 <div class="rounded-lg shadow-lg bg-white max-w-sm ">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light" className='flex justify-center'>
@@ -31,6 +32,8 @@ function CarsCard({ manufacturer, model, year, carvin, country, image }) {
                     </div>
                 </div>
             </div>
+            </Link>
+          
         </aside>
 
     );
