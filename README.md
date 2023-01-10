@@ -1,4 +1,4 @@
-#  DMIT-2008
+# NextJs
 ##  John Oliver Halasan
 
 ### all of my codes will be here for this class and will be deloplyed in Vercel
